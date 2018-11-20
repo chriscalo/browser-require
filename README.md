@@ -30,7 +30,7 @@ Finally, you can also return a whole new `exports` object by setting it on the `
 ```js
 define("bar", (exports, module) => {
   var foo = require("foo");
-  modules.exports = {
+  module.exports = {
     bar: "bar",
     foo: foo,
   };
